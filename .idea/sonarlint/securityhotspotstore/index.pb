@@ -16,3 +16,5 @@ B
 src/app/layout.tsx,c/f/cfb47de6ae0cae626eed46461300112ef521d977
 C
 src/app/globals.css,d/a/da1d6f21d01d0f36b5501dffcf7fd160ffcb290d
+G
+src/app/app.module.scss,c/4/c4797197076bad6193c58d4a4d5adf04a6f1a71d

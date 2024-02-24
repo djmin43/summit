@@ -12,3 +12,7 @@ A
 src/app/page.tsx,3/3/3393394e21dbac7686e91ad17c5283fb052d67f3
 G
 src/app/page.module.css,7/8/78b82cc5d1639d4541dbfbd03c2f96784e923da6
+B
+src/app/layout.tsx,c/f/cfb47de6ae0cae626eed46461300112ef521d977
+C
+src/app/globals.css,d/a/da1d6f21d01d0f36b5501dffcf7fd160ffcb290d

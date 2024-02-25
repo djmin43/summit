@@ -18,3 +18,11 @@ C
 src/app/globals.css,d/a/da1d6f21d01d0f36b5501dffcf7fd160ffcb290d
 G
 src/app/app.module.scss,c/4/c4797197076bad6193c58d4a4d5adf04a6f1a71d
+W
+'src/components/navigation-bar/index.tsx,f/f/ff36e7a3e661d79eae779e56a41f6f09636aed18
+h
+8src/components/navigation-bar/navigation-bar.module.scss,a/b/aba648b2cc66d25b6a312228eecd5185980ad603
+O
+src/components/footer/index.tsx,7/4/7450fc3706ba330a304f0e2faf901d0fcbe33aa4
+X
+(src/components/footer/footer.module.scss,b/7/b76c62b5573a9758c6355d2c732d7cfdb961a931

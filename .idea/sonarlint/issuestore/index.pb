@@ -26,3 +26,5 @@ O
 src/components/footer/index.tsx,7/4/7450fc3706ba330a304f0e2faf901d0fcbe33aa4
 X
 (src/components/footer/footer.module.scss,b/7/b76c62b5573a9758c6355d2c732d7cfdb961a931
+>
+.eslintrc.json,7/1/71c20a341bfe32aa5cd5b4384e94f942bab6a7d3

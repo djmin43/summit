@@ -2,8 +2,8 @@
 
 .title {
   color: blue;
-  @include mixins.dekstop {
-    color: red;
+  @include mixins.tablet {
+    color: green;
   }
 }
 

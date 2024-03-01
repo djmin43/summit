@@ -4,17 +4,39 @@
 
 .navigationContainer {
   display: flex;
+  height: 48px;
+  padding: 4px;
   background-color: colors.$primary;
-  height: 36px;
-
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid colors.$gray;
   @include mixins.tablet {
-
+    justify-content: space-between;
+    height: 72px;
+    padding: 8px;
   }
+
+}
+
+.navigationLinkContainer {
+  display: none;
+  @include mixins.tablet {
+    display: flex;
+  }
+
 
 }
 
 .title {
   font-size: $large;
   color: colors.$white;
+  font-weight: 700;
+  @include mixins.tablet {
+    font-size: $xx-large;
+    font-weight: 700;
+  }
+
 }
+
+
 

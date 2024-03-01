@@ -7,10 +7,12 @@ export const NavigationBar = () => {
   return (
     <nav className={classNames(styles.navigationContainer)}>
       <span className={classNames(styles.title)}>Summ(i:T)</span>
-      <NavigationLink href={routes.index}>home</NavigationLink>
-      <NavigationLink href={routes.about}>about</NavigationLink>
-      <NavigationLink href={routes.portfolio}>portfolio</NavigationLink>
-      <NavigationLink href={routes.contact}>contact</NavigationLink>
+      <div className={styles.navigationLinkContainer}>
+        <NavigationLink href={routes.index}>home</NavigationLink>
+        <NavigationLink href={routes.about}>about</NavigationLink>
+        <NavigationLink href={routes.portfolio}>portfolio</NavigationLink>
+        <NavigationLink href={routes.contact}>contact</NavigationLink>
+      </div>
     </nav>
   );
 };

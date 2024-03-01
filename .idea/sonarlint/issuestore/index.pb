@@ -60,3 +60,5 @@ G
 src/styles/_colors.scss,e/6/e66d4b2ef0dc5769d36179bd8aa3cf18fa8e1513
 J
 src/styles/_font-size.scss,8/1/81c5f510489ce0459ab2638e10a0fa0f3d8807bf
+D
+src/app/globals.scss,e/5/e538556067dff0d3283740bfa03e693e5f9332f8

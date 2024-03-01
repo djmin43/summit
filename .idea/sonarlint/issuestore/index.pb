@@ -48,3 +48,5 @@ H
 src/app/contact/page.tsx,1/e/1ee5438b85d3cc29b9284bd5fcd275cb9d5bc7cf
 J
 src/app/portfolio/page.tsx,0/7/0798d9d8b4d831f006033fc44687284a9d91daad
+G
+src/constants/routes.ts,0/7/078062f8d631dcbbc85918bc0d7ae757623dd184

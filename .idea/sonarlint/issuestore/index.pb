@@ -58,3 +58,5 @@ a
 1src/components/landing/landing-home.component.tsx,c/6/c6d7d8087d62ba1f447c676175bcb4c45b1a0639
 G
 src/styles/_colors.scss,e/6/e66d4b2ef0dc5769d36179bd8aa3cf18fa8e1513
+J
+src/styles/_font-size.scss,8/1/81c5f510489ce0459ab2638e10a0fa0f3d8807bf

@@ -1,16 +1,20 @@
 @use 'src/styles/mixin' as mixins;
+@use 'src/styles/colors' as colors;
+@use 'src/styles/variables' as *;
 
-.navigation-container {
+.navigationContainer {
   display: flex;
+  background-color: colors.$primary;
+  height: 36px;
 
   @include mixins.tablet {
-
 
   }
 
 }
 
 .title {
-  color: blue;
+  font-size: $large;
+  color: colors.$white;
 }
 

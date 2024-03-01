@@ -50,3 +50,7 @@ J
 src/app/portfolio/page.tsx,0/7/0798d9d8b4d831f006033fc44687284a9d91daad
 G
 src/constants/routes.ts,0/7/078062f8d631dcbbc85918bc0d7ae757623dd184
+n
+>src/components/landing/landing-home/landing-home.component.tsx,7/1/71422cf3ddd3a988778c3a451cd55dd24b2dd03a
+`
+0src/components/landing/testimonial.component.tsx,4/4/44931efa539edda1c8d027a4fec5a71626956b8c

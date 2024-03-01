@@ -42,3 +42,9 @@ F
 next.config.mjs,d/f/df8bd0b91ecb778bf2a1b031c7677390c7442bb4
 s
 Csrc/components/common/navigation-link/navigation-link.component.tsx,7/8/7801c6178815fc1b59e30fda099d3d33007cb456
+F
+src/app/about/page.tsx,1/d/1dfffa14ce1e987107ad40fe51c0c049c3149894
+H
+src/app/contact/page.tsx,1/e/1ee5438b85d3cc29b9284bd5fcd275cb9d5bc7cf
+J
+src/app/portfolio/page.tsx,0/7/0798d9d8b4d831f006033fc44687284a9d91daad

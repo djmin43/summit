@@ -1,9 +1,16 @@
 @use 'src/styles/mixin' as mixins;
 
+.navigation-container {
+  display: flex;
+
+  @include mixins.tablet {
+
+
+  }
+
+}
+
 .title {
   color: blue;
-  @include mixins.tablet {
-    color: green;
-  }
 }
 

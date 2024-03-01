@@ -2,14 +2,20 @@ import React, { ReactNode } from "react";
 import Link from "next/link";
 import { LinkProps } from "next/dist/client/link";
 
-export type NavigationLinkComponentProps = {
+export type NavigationLinkProps = {
   children: ReactNode;
-  props: LinkProps;
+  props?: LinkProps;
+  href: string;
 };
 
-export const NavigationLinkComponent = ({
+export const NavigationLink = ({
+  href,
   children,
-  props,
-}: NavigationLinkComponentProps) => {
-  return <Link {...props}>{children}</Link>;
+  ...props
+}: NavigationLinkProps) => {
+  return (
+    <Link href={href} {...props}>
+      {children}
+    </Link>
+  );
 };

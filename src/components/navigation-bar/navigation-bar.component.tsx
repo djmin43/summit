@@ -2,6 +2,7 @@ import styles from "./navigation-bar.module.scss";
 import classNames from "classnames";
 import { NavigationLink } from "@/components/common/navigation-link/navigation-link.component";
 import { routes } from "@/constants/routes";
+
 export const NavigationBar = () => {
   return (
     <nav className={styles.navigationContainer}>

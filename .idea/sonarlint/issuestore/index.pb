@@ -28,3 +28,15 @@ X
 (src/components/footer/footer.module.scss,b/7/b76c62b5573a9758c6355d2c732d7cfdb961a931
 >
 .eslintrc.json,7/1/71c20a341bfe32aa5cd5b4384e94f942bab6a7d3
+Z
+*src/components/footer/footer.component.tsx,3/d/3d7beae852163a58fab19996ba7ffa23bcfe5f6a
+j
+:src/components/navigation-bar/navigation-bar.component.tsx,2/0/20ee17985b8f5c5190a20fd83f4e4a09da0f6e24
+J
+src/styles/_variables.scss,6/e/6e88623165185942088538437e725abdb02427a4
+F
+src/styles/_mixin.scss,f/c/fcaf532d2ce47ef240bc6887160a81465e09748d
+=
+tsconfig.json,6/1/61ebb9fd6e8cf9082658121d5d81e297791dacd0
+?
+next.config.mjs,d/f/df8bd0b91ecb778bf2a1b031c7677390c7442bb4

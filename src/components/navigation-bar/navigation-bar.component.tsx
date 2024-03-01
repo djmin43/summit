@@ -1,3 +1,8 @@
+import style from "./navigation-bar.module.scss";
 export const NavigationBar = () => {
-  return <nav>navigation bar</nav>;
+  return (
+    <nav>
+      <span className={style.title}>Summ(i:T)</span>
+    </nav>
+  );
 };

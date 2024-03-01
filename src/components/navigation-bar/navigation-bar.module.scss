@@ -1,0 +1,9 @@
+@use 'src/styles/mixin' as mixins;
+
+.title {
+  color: blue;
+  @include mixins.dekstop {
+    color: red;
+  }
+}
+

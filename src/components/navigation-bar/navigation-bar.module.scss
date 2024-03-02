@@ -4,20 +4,21 @@
 
 .navigationContainer {
   display: flex;
-  height: 48px;
-  padding: 4px;
+  height: 72px;
+  padding: 16px;
   background-color: colors.$primary;
-  justify-content: center;
   align-items: center;
+  justify-content: space-between;
   border-bottom: 1px solid colors.$gray;
-  & > img {
-    color: colors.$white;
-
+  svg {
+    fill: colors.$white;
+    transform: scale(1.5);
   }
   @include mixins.tablet {
-    justify-content: space-between;
     height: 72px;
-    padding: 8px;
+    svg {
+      display: none;
+    }
   }
 
 }

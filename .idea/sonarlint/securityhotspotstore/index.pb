@@ -64,3 +64,7 @@ D
 src/app/globals.scss,e/5/e538556067dff0d3283740bfa03e693e5f9332f8
 G
 src/hooks/use-toggle.ts,a/d/ad21c716e0349a9a317eba5b0a51eda02cb5759c
+y
+Isrc/components/navigation-bar/hamburger-menu/hamburger-menu.component.tsx,5/a/5a3f1cb8a996e8e510d587f493a20b47868ef567
+w
+Gsrc/components/navigation-bar/hamburger-menu/hamburger-menu.module.scss,a/d/adb9400a5443da25e9a16d5cc833f21818b329d6

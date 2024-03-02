@@ -16,6 +16,7 @@
   }
   @include mixins.tablet {
     height: 72px;
+    padding: 16px 32px;
     svg {
       display: none;
     }
@@ -27,8 +28,9 @@
   display: none;
   @include mixins.tablet {
     display: flex;
+    gap: 12px;
+    font-size: $x-large;
   }
-
 
 }
 
@@ -40,8 +42,8 @@
     font-size: $xx-large;
     font-weight: 700;
   }
-
 }
+
 
 
 

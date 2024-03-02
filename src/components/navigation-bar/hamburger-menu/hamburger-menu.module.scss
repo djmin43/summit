@@ -29,8 +29,22 @@
   flex-direction: column;
   gap: 8px;
   font-size: $xx-large;
+  & a {
+    animation: 0.7s ease-in-out slidein;
+  }
 }
 
 .isClosed {
   display: none;
+}
+
+@keyframes slidein {
+  from {
+    opacity: 0.3;
+    transform: translateY(25%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0%);
+  }
 }

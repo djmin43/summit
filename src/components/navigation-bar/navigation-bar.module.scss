@@ -10,6 +10,10 @@
   justify-content: center;
   align-items: center;
   border-bottom: 1px solid colors.$gray;
+  & > img {
+    color: colors.$white;
+
+  }
   @include mixins.tablet {
     justify-content: space-between;
     height: 72px;

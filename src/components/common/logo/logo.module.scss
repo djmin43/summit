@@ -1,0 +1,14 @@
+@use '/src/styles/font-size' as *;
+@use '/src/styles/colors' as colors;
+
+
+.logo {
+  font-size: $xx-large;
+  font-weight: 700;
+  &:after {
+    content: ".";
+    color: colors.$secondary;
+    font-size: 48px;
+  }
+}
+

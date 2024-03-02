@@ -68,3 +68,7 @@ y
 Isrc/components/navigation-bar/hamburger-menu/hamburger-menu.component.tsx,5/a/5a3f1cb8a996e8e510d587f493a20b47868ef567
 w
 Gsrc/components/navigation-bar/hamburger-menu/hamburger-menu.module.scss,a/d/adb9400a5443da25e9a16d5cc833f21818b329d6
+]
+-src/components/common/logo/logo.component.tsx,c/c/cce9f92a8fdd5ea3a733feee6a235aa776003eeb
+[
++src/components/common/logo/logo.module.scss,0/8/0880da4601c5b821515dbc2c86c619d8879fb71f

@@ -4,7 +4,6 @@ import styles from "./navigation-bar.module.scss";
 import { NavigationLink } from "@/components/common/navigation-link/navigation-link.component";
 import { routes } from "@/constants/routes";
 import Hamburger from "@material-design-icons/svg/outlined/menu.svg";
-import Image from "next/image";
 
 export const NavigationBar = () => {
   return (

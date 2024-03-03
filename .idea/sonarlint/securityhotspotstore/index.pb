@@ -74,3 +74,13 @@ Gsrc/components/navigation-bar/hamburger-menu/hamburger-menu.module.scss,a/d/ad
 +src/components/common/logo/logo.module.scss,0/8/0880da4601c5b821515dbc2c86c619d8879fb71f
 _
 /src/components/landing/landing-home.module.scss,4/e/4e62adf44880b117360c2b17836d9f5b5fb23d4f
+T
+$src/assets/illustrations/landing.tsx,e/2/e2971bd01887f101c6c4f7ebe85a312b81991e49
+a
+1src/assets/illustrations/landing.illustration.tsx,5/1/51a9946997f37504746bc9eeeffe783470c9e990
+T
+$src/assets/illustrations/landing.svg,8/3/8332bcc96a15233ea4cfeaabe723593b76accd77
+Z
+*src/assets/illustrations/work-together.svg,4/4/44067c455a173f3efa4007a3eb2b76230b8b97cc
+Q
+!src/assets/illustrations/idea.svg,c/c/cccb182836c535c84052cd27526f126f331be41a

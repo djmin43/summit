@@ -5,8 +5,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  animation: 1s ease-in-out slidein;
+  height: 100dvh;
+}
+
+.landingDescriptionContainer {
+  display: flex;
   flex-direction: column;
-  padding: 256px 64px;
+  gap: 32px;
+}
+
+.landingIllustrationContainer {
 }
 
 .landingTitle {
@@ -14,8 +23,19 @@
 }
 
 .landingDescription {
-  text-align: center;
   font-size: $xx-large;
   font-weight: 400;
   color: colors.$gray;
+  width: 600px;
+}
+
+@keyframes slidein {
+  from {
+    opacity: 0;
+    transform: translateY(2%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0%);
+  }
 }

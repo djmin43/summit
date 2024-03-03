@@ -9,7 +9,6 @@
   align-items: center;
   padding: 32px;
   gap: 32px;
-  border: 1px solid blue;
   background: linear-gradient(to bottom, #464F69, colors.$primary 30%);
   @include mixins.tablet {
     flex-direction: row-reverse;

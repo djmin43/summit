@@ -1,0 +1,27 @@
+@use '/src/styles/colors' as colors;
+
+.avatar {
+  svg {
+    transform: scale(2);
+  }
+}
+
+.red {
+  fill: colors.$red;
+}
+
+.yellow {
+  fill: colors.$yellow;
+}
+
+.gray {
+  fill: colors.$gray;
+}
+
+.purple {
+  fill: colors.$secondary;
+}
+
+.black {
+  fill: colors.$black;
+}

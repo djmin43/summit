@@ -104,3 +104,7 @@ v
 Fsrc/components/common/navigation-button/navigation-button.componet.tsx,7/8/78005e029ebbc4620b36b767476127e7d46ace05
 u
 Esrc/components/common/navigation-button/navigation-button.module.scss,9/6/9622a034b9ad8e776d9fe2cda7317dd4168ce695
+a
+1src/components/common/avatar/avatar.component.tsx,e/6/e6c83c39005903637e749142d73b4473ee0b64e8
+_
+/src/components/common/avatar/avatar.module.scss,0/0/001da753d3c369d33df901ca47b045e886c8d087

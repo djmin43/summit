@@ -10,17 +10,13 @@
   padding: 32px;
   gap: 32px;
   background: linear-gradient(to bottom, #464F69, colors.$primary 30%);
-  @include mixins.tablet {
-    flex-direction: row-reverse;
-    justify-content: space-between;
-  }
 }
 
 .footerNavigationContainer {
   display: flex;
-  flex-direction: column;
   align-items: center;
   gap: 8px;
+  color: colors.$gray;
   @include mixins.tablet {
     flex-direction: row;
     gap: 16px;
@@ -31,10 +27,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  @include mixins.tablet {
-    align-items: flex-start;
-  }
-
 }
 
 .copyright {

@@ -6,12 +6,12 @@ import { Logo } from "@/components/common/logo/logo.component";
 export const Footer = () => {
   return (
     <footer className={styles.footerContainer}>
-      <div className={styles.footerNavigationContainer}>
-        <NavigationLink href={routes.index}>home</NavigationLink>
-        <NavigationLink href={routes.about}>about</NavigationLink>
-        <NavigationLink href={routes.portfolio}>portfolio</NavigationLink>
-        <NavigationLink href={routes.contact}>contact</NavigationLink>
-      </div>
+      {/*<div className={styles.footerNavigationContainer}>*/}
+      {/*  <NavigationLink href={routes.index}>home</NavigationLink>*/}
+      {/*  <NavigationLink href={routes.about}>about</NavigationLink>*/}
+      {/*  <NavigationLink href={routes.portfolio}>portfolio</NavigationLink>*/}
+      {/*  <NavigationLink href={routes.contact}>contact</NavigationLink>*/}
+      {/*</div>*/}
       <div className={styles.footerLogoContainer}>
         <Logo />
         <span className={styles.copyright}>

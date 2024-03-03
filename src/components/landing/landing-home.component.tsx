@@ -1,6 +1,7 @@
 import styles from "./landing-home.module.scss";
 import React from "react";
 import Idea from "@/assets/illustrations/idea.svg";
+import { MainButton } from "@/components/common/main-button/main-button.component";
 
 export const LandingHome = () => {
   return (
@@ -10,6 +11,7 @@ export const LandingHome = () => {
         <p className={styles.landingDescription}>
           We bring sustainable and scalable solutions to your doorstep.
         </p>
+        <MainButton>get a demo</MainButton>
       </div>
       <div className={styles.landingIllustrationContainer}>
         <Idea />

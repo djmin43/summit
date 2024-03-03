@@ -2,9 +2,8 @@ import React, { ReactNode } from "react";
 import Link from "next/link";
 import { LinkProps } from "next/dist/client/link";
 
-export type NavigationLinkProps = {
+export type NavigationLinkProps = LinkProps & {
   children: ReactNode;
-  props?: LinkProps;
   href: string;
 };
 

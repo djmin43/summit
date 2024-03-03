@@ -10,10 +10,10 @@
   animation: 1s ease-in-out slidein;
   height: 100dvh;
   text-align: center;
-  gap: 32px;
   @include mixins.tablet {
     flex-direction: row;
     text-align: left;
+    gap: 32px;
   }
 }
 
@@ -52,7 +52,7 @@
   font-weight: 400;
   color: colors.$gray;
   @include mixins.tablet {
-    width: 600px;
+    max-width: 600px;
   }
 }
 

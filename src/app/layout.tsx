@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     siteName: "Summit",
     images: [
       {
-        url: "https://thumb2.photo.mybox.naver.com/3472535967276863304?type=m1280_1280_2&nocache=4001160303",
+        url: "https://naver.me/GnvfN5mI",
       },
     ],
   },

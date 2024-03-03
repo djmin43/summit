@@ -5,7 +5,8 @@ import { testimonials } from "@/constants/testimonials";
 
 export const Testimonial = () => {
   return (
-    <section className={styles.testimonialsContainer}>
+    <section className={styles.testimonialsContainer} id="testimonials">
+      <h3 className={styles.title}>What our clients say</h3>
       {testimonials.map((testimonial) => (
         <div key={testimonial.name} className={styles.testimonialContainer}>
           <p className={styles.description}>

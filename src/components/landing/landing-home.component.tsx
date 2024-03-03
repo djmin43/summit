@@ -16,7 +16,10 @@ export const LandingHome = () => {
           <NavigationButton href={routes.about} buttonType="primary">
             Consult for free
           </NavigationButton>
-          <NavigationButton href={routes.contact} buttonType="secondary">
+          <NavigationButton
+            href={`${routes.index}/#testimonials`}
+            buttonType="secondary"
+          >
             Learn more
           </NavigationButton>
         </div>

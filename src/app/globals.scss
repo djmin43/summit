@@ -18,6 +18,7 @@ body {
   overflow-x: hidden;
   background-color: colors.$primary;
   color: colors.$white;
+  scroll-behavior: smooth;
 }
 
 button {

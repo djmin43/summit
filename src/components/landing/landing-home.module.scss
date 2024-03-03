@@ -10,6 +10,7 @@
   animation: 1s ease-in-out slidein;
   height: 100dvh;
   text-align: center;
+  padding: 16px;
   @include mixins.tablet {
     flex-direction: row;
     text-align: left;
@@ -20,7 +21,12 @@
 .landingDescriptionContainer {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 16px;
+  @include mixins.tablet {
+    align-items: flex-start;
+  }
+
 }
 
 .landingIllustrationContainer {
@@ -28,6 +34,20 @@
   @include mixins.tablet {
     transform: scale(1);
   }
+}
+
+.landingButtonContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  width: 320px;
+  @include mixins.tablet {
+    flex-direction: row;
+    width: 100%;
+  }
+
 }
 
 .landingTitle {

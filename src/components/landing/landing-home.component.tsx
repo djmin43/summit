@@ -1,7 +1,8 @@
 import styles from "./landing-home.module.scss";
 import React from "react";
 import Idea from "@/assets/illustrations/idea.svg";
-import { MainButton } from "@/components/common/main-button/main-button.component";
+import { routes } from "@/constants/routes";
+import { NavigationButton } from "@/components/common/navigation-button/navigation-button.componet";
 
 export const LandingHome = () => {
   return (
@@ -11,7 +12,14 @@ export const LandingHome = () => {
         <p className={styles.landingDescription}>
           We bring sustainable and scalable solutions to your doorstep.
         </p>
-        <MainButton>get a demo</MainButton>
+        <div className={styles.landingButtonContainer}>
+          <NavigationButton href={routes.about} buttonType="primary">
+            Consult for free
+          </NavigationButton>
+          <NavigationButton href={routes.contact} buttonType="secondary">
+            Learn more
+          </NavigationButton>
+        </div>
       </div>
       <div className={styles.landingIllustrationContainer}>
         <Idea />

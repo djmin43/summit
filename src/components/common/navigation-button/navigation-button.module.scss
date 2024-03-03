@@ -1,0 +1,20 @@
+@use '/src/styles/colors' as colors;
+@use '/src/styles/font-size' as *;
+
+.primary {
+  background: colors.$secondary;
+}
+
+.secondary {
+  border: 1px solid colors.$white;
+}
+
+.button {
+  color: colors.$white;
+  padding: 14px 32px;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: $large;
+  text-align: center;
+  width: 100%;
+}

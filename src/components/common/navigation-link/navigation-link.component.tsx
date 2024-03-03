@@ -5,15 +5,17 @@ import { LinkProps } from "next/dist/client/link";
 export type NavigationLinkProps = LinkProps & {
   children: ReactNode;
   href: string;
+  customClass?: string;
 };
 
 export const NavigationLink = ({
   href,
   children,
+  customClass,
   ...props
 }: NavigationLinkProps) => {
   return (
-    <Link href={href} {...props}>
+    <Link href={href} className={customClass} {...props}>
       {children}
     </Link>
   );

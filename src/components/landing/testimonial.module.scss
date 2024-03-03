@@ -17,6 +17,10 @@
   }
 }
 
+.highlight {
+  text-decoration: underline colors.$yellow;
+}
+
 .testimonialContainer {
   display: flex;
   flex-direction: column;
@@ -30,7 +34,7 @@
 
 .description {
   font-size: $large;
-  font-weight: 500;
+  line-height: 1.5;
 }
 
 .avatarContainer {

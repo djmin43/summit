@@ -13,7 +13,7 @@ export const LandingHome = () => {
           We bring sustainable and scalable solutions to your doorstep.
         </p>
         <div className={styles.landingButtonContainer}>
-          <NavigationButton href={routes.about} buttonType="primary">
+          <NavigationButton href={routes.contact} buttonType="primary">
             Consult for free
           </NavigationButton>
           <NavigationButton

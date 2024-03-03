@@ -112,3 +112,7 @@ M
 src/constants/testimonials.ts,6/3/6307c226d9a0156a859accdb6fce160ed66f55b1
 ^
 .src/components/landing/testimonial.module.scss,3/7/378caf708b429abc291b5a467350827f619c200b
+?
+public/next.svg,0/f/0f0d3de08f3cde5481ae7a36082cdc12c93b0f89
+A
+public/vercel.svg,0/c/0c3567b3146da917779092b6952cf7aa844d3c76

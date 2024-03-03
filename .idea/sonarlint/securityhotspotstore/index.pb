@@ -110,3 +110,5 @@ _
 /src/components/common/avatar/avatar.module.scss,0/0/001da753d3c369d33df901ca47b045e886c8d087
 M
 src/constants/testimonials.ts,6/3/6307c226d9a0156a859accdb6fce160ed66f55b1
+^
+.src/components/landing/testimonial.module.scss,3/7/378caf708b429abc291b5a467350827f619c200b

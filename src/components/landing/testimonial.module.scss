@@ -1,0 +1,57 @@
+@use '/src/styles/mixin' as mixins;
+@use '/src/styles/colors' as colors;
+@use '/src/styles/font-size' as *;
+
+.testimonialsContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 64px 32px;
+  gap: 64px;
+}
+
+.testimonialContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  background: colors.$white;
+  color: colors.$black;
+  border-radius: 16px;
+  padding: 32px;
+
+}
+
+.description {
+  font-size: $large;
+  font-weight: 500;
+}
+
+.avatarContainer {
+  display: flex;
+  align-items: center;
+  @include mixins.tablet {
+    margin-left: auto;
+
+  }
+}
+
+.personContainer {
+  margin-left: 16px;
+
+}
+
+.name {
+  font-size: $large;
+  font-weight: 700;
+}
+
+
+.position {
+  padding-right: 4px;
+  &:after {
+    content: ","
+  }
+}
+
+.company {
+
+}

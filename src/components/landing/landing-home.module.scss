@@ -1,3 +1,4 @@
+@use '/src/styles/mixin' as mixins;
 @use '/src/styles/colors' as colors;
 @use '/src/styles/font-size' as *;
 
@@ -5,28 +6,54 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   animation: 1s ease-in-out slidein;
   height: 100dvh;
+  text-align: center;
+  gap: 32px;
+  @include mixins.tablet {
+    flex-direction: row;
+    text-align: left;
+  }
 }
 
 .landingDescriptionContainer {
   display: flex;
   flex-direction: column;
-  gap: 32px;
+  gap: 16px;
 }
 
 .landingIllustrationContainer {
+  transform: scale(0.8);
+  @include mixins.tablet {
+    transform: scale(1);
+  }
 }
 
 .landingTitle {
-  font-size: 72px;
+  font-size: 48px;
+  @include mixins.tablet {
+    font-size: 72px;
+    &:after {
+      content: ".";
+      color: colors.$secondary;
+      font-size: 48px;
+    }
+  }
+  &:after {
+    content: ".";
+    color: colors.$secondary;
+    font-size: 72px;
+  }
 }
 
 .landingDescription {
   font-size: $xx-large;
   font-weight: 400;
   color: colors.$gray;
-  width: 600px;
+  @include mixins.tablet {
+    width: 600px;
+  }
 }
 
 @keyframes slidein {

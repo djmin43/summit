@@ -1,3 +1,5 @@
+@use '/src/styles/mixin' as mixins;
+@use '/src/styles/font-size' as *;
 @use '/src/styles/colors' as colors;
 
 .footerContainer {
@@ -6,7 +8,35 @@
   justify-content: center;
   align-items: center;
   padding: 32px;
-  border-top: 1px solid colors.$white;
-  background: linear-gradient(colors.$primary, colors.$gray 590%);
+  gap: 32px;
+  background: linear-gradient(to bottom, #464F69, colors.$primary 30%);
+  @include mixins.tablet {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+}
 
+.footerNavigationContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  @include mixins.tablet {
+    flex-direction: row;
+    gap: 16px;
+  }
+}
+
+.footerLogoContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  @include mixins.tablet {
+    align-items: flex-start;
+  }
+
+}
+
+.copyright {
+  font-size: $small;
 }

@@ -72,3 +72,5 @@ Gsrc/components/navigation-bar/hamburger-menu/hamburger-menu.module.scss,a/d/ad
 -src/components/common/logo/logo.component.tsx,c/c/cce9f92a8fdd5ea3a733feee6a235aa776003eeb
 [
 +src/components/common/logo/logo.module.scss,0/8/0880da4601c5b821515dbc2c86c619d8879fb71f
+_
+/src/components/landing/landing-home.module.scss,4/e/4e62adf44880b117360c2b17836d9f5b5fb23d4f

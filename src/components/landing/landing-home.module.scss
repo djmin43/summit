@@ -1,0 +1,21 @@
+@use '/src/styles/colors' as colors;
+@use '/src/styles/font-size' as *;
+
+.landingHomeContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 256px 64px;
+}
+
+.landingTitle {
+  font-size: 72px;
+}
+
+.landingDescription {
+  text-align: center;
+  font-size: $xx-large;
+  font-weight: 400;
+  color: colors.$gray;
+}

@@ -1,8 +1,6 @@
 
 9
 	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
-A
-package-lock.json,f/a/fa288d1472d29beccb489a676f68739ad365fc47
 <
 package.json,7/0/7030d0b2f71b999ff89a343de08c414af32fc93a
 :
@@ -10,20 +8,12 @@ A
 .gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
 @
 src/app/page.tsx,3/3/3393394e21dbac7686e91ad17c5283fb052d67f3
-G
-src/app/page.module.css,7/8/78b82cc5d1639d4541dbfbd03c2f96784e923da6
 B
 src/app/layout.tsx,c/f/cfb47de6ae0cae626eed46461300112ef521d977
-C
-src/app/globals.css,d/a/da1d6f21d01d0f36b5501dffcf7fd160ffcb290d
 G
 src/app/app.module.scss,c/4/c4797197076bad6193c58d4a4d5adf04a6f1a71d
-W
-'src/components/navigation-bar/index.tsx,f/f/ff36e7a3e661d79eae779e56a41f6f09636aed18
 h
 8src/components/navigation-bar/navigation-bar.module.scss,a/b/aba648b2cc66d25b6a312228eecd5185980ad603
-O
-src/components/footer/index.tsx,7/4/7450fc3706ba330a304f0e2faf901d0fcbe33aa4
 X
 (src/components/footer/footer.module.scss,b/7/b76c62b5573a9758c6355d2c732d7cfdb961a931
 >
@@ -50,8 +40,6 @@ J
 src/app/portfolio/page.tsx,0/7/0798d9d8b4d831f006033fc44687284a9d91daad
 G
 src/constants/routes.ts,0/7/078062f8d631dcbbc85918bc0d7ae757623dd184
-n
->src/components/landing/landing-home/landing-home.component.tsx,7/1/71422cf3ddd3a988778c3a451cd55dd24b2dd03a
 `
 0src/components/landing/testimonial.component.tsx,4/4/44931efa539edda1c8d027a4fec5a71626956b8c
 a
@@ -74,32 +62,12 @@ Gsrc/components/navigation-bar/hamburger-menu/hamburger-menu.module.scss,a/d/ad
 +src/components/common/logo/logo.module.scss,0/8/0880da4601c5b821515dbc2c86c619d8879fb71f
 _
 /src/components/landing/landing-home.module.scss,4/e/4e62adf44880b117360c2b17836d9f5b5fb23d4f
-T
-$src/assets/illustrations/landing.tsx,e/2/e2971bd01887f101c6c4f7ebe85a312b81991e49
-a
-1src/assets/illustrations/landing.illustration.tsx,5/1/51a9946997f37504746bc9eeeffe783470c9e990
-T
-$src/assets/illustrations/landing.svg,8/3/8332bcc96a15233ea4cfeaabe723593b76accd77
-Z
-*src/assets/illustrations/work-together.svg,4/4/44067c455a173f3efa4007a3eb2b76230b8b97cc
 Q
 !src/assets/illustrations/idea.svg,c/c/cccb182836c535c84052cd27526f126f331be41a
-T
-$src/components/common/default-button,d/f/df31e141c9a874fdd3e32bf8aae6af4f373dc9f2
 k
 ;src/components/common/main-button/main-button.component.tsx,0/d/0d2cb3d1ccdce75d0fd52b69aa79af4a4621803c
 i
 9src/components/common/main-button/main-button.module.scss,7/1/713aa0382eaffb3ff9f2cb94d1efd615de0408fe
-p
-@src/components/common/main-button-link/main-button.component.tsx,2/8/28a76130d4df562b69b1c2006067edec400e827c
-n
->src/components/common/main-button-link/main-button.module.scss,d/8/d8e7969d0ccd7a92c803a55b6bc11934a715e270
-u
-Esrc/components/common/main-button-link/main-button-link.component.tsx,a/8/a8e868b9671fe2562f95e8cd893ba704bf4d802a
-Ä
-Psrc/components/common/navigation-link-button/navigation-link-button.componet.tsx,0/e/0ecc5c7f1bef39875fbf1968a253cf8b9ebeb454
-Å
-Qsrc/components/common/navigation-link-button/navigation-link-button.component.tsx,5/5/554d11fbe5e7bcd7ad9d58dac3a9aa316a7205f5
 v
 Fsrc/components/common/navigation-button/navigation-button.componet.tsx,7/8/78005e029ebbc4620b36b767476127e7d46ace05
 u
@@ -112,7 +80,3 @@ M
 src/constants/testimonials.ts,6/3/6307c226d9a0156a859accdb6fce160ed66f55b1
 ^
 .src/components/landing/testimonial.module.scss,3/7/378caf708b429abc291b5a467350827f619c200b
-?
-public/next.svg,0/f/0f0d3de08f3cde5481ae7a36082cdc12c93b0f89
-A
-public/vercel.svg,0/c/0c3567b3146da917779092b6952cf7aa844d3c76

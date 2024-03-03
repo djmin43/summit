@@ -8,7 +8,7 @@ export const LandingHome = () => {
   return (
     <section className={styles.landingHomeContainer}>
       <div className={styles.landingDescriptionContainer}>
-        <h3 className={styles.landingTitle}>Summit</h3>
+        <h3 className={styles.landingTitle}>summit</h3>
         <p className={styles.landingDescription}>
           We bring sustainable and scalable solutions to your doorstep.
         </p>

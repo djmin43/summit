@@ -9,20 +9,20 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title:
-    "Summit - We bring sustainable and scalable solutions to your doorstep.",
+    "summit - We bring sustainable and scalable solutions to your doorstep.",
   description: "We bring sustainable and scalable solutions to your doorstep.",
-  applicationName: "Summit",
-  authors: [{ name: "Summit", url: "https://summit-chi.vercel.app/" }],
-  generator: "Summit",
+  applicationName: "summit",
+  authors: [{ name: "summit", url: "https://summit-chi.vercel.app/" }],
+  generator: "summit",
   keywords: "summit, system integration",
   openGraph: {
     type: "website",
     url: "https://summit-chi.vercel.app/",
     title:
-      "Summit - We bring sustainable and scalable solutions to your doorstep.",
+      "summit - We bring sustainable and scalable solutions to your doorstep.",
     description:
       "We bring sustainable and scalable solutions to your doorstep.",
-    siteName: "Summit",
+    siteName: "summit",
     images: [
       {
         url: "https://images.ctfassets.net/avosu5u8t1wd/21sBbw55LlJyv3eu3yOxwx/899be022a4c056df87af8b1c86e05f34/summit-og-main.png",

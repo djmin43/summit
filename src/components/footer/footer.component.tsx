@@ -15,7 +15,7 @@ export const Footer = () => {
       <div className={styles.footerLogoContainer}>
         <Logo />
         <span className={styles.copyright}>
-          © 2024-present Summit. All Rights Reserved.
+          © 2024-present summit. All Rights Reserved.
         </span>
       </div>
     </footer>

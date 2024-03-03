@@ -6,7 +6,7 @@ export type AvatarProps = {
   avatarColor: AvatarColor;
 };
 
-type AvatarColor = "red" | "yellow" | "gray" | "black" | "purple";
+export type AvatarColor = "red" | "yellow" | "gray" | "black" | "purple";
 
 export const Avatar = ({ avatarColor }: AvatarProps) => {
   return (

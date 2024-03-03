@@ -1,5 +1,3 @@
-"use client";
-
 import styles from "./navigation-bar.module.scss";
 import { NavigationLink } from "@/components/common/navigation-link/navigation-link.component";
 import { routes } from "@/constants/routes";

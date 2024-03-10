@@ -31,6 +31,18 @@
     font-size: $x-large;
   }
 
+  & > a {
+    position: relative;
+    
+    &:hover:after{
+      content: "";
+      position: absolute;
+      width: 100%;
+      left: 0;
+      bottom: 0;
+      border-bottom: 2px solid colors.$secondary;
+    }
+  }
 }
 
 .title {

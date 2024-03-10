@@ -1,6 +1,6 @@
 @use 'src/styles/mixin' as mixins;
 @use 'src/styles/colors' as colors;
-@use 'src/styles/variables' as *;
+@use 'src/styles/font-size' as fontsize;
 
 .navigationContainer {
   display: flex;
@@ -28,7 +28,7 @@
   @include mixins.tablet {
     display: flex;
     gap: 12px;
-    font-size: $x-large;
+    font-size: fontsize.$x-large;
   }
 
   & > a {
@@ -46,11 +46,11 @@
 }
 
 .title {
-  font-size: $large;
+  font-size: fontsize.$large;;
   color: colors.$white;
   font-weight: 700;
   @include mixins.tablet {
-    font-size: $xx-large;
+    font-size: fontsize.$xx-large;
     font-weight: 700;
   }
 }

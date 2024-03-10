@@ -1,5 +1,5 @@
 @use '/src/styles/colors' as colors;
-@use '/src/styles/font-size' as *;
+@use '/src/styles/font-size' as fontsize;
 
 .primary {
   background: colors.$secondary;
@@ -14,7 +14,7 @@
   padding: 14px 32px;
   border-radius: 999px;
   font-weight: 600;
-  font-size: $large;
+  font-size: fontsize.$large;;
   text-align: center;
   width: 100%;
 }

@@ -1,6 +1,6 @@
 @use '/src/styles/mixin' as mixins;
 @use '/src/styles/colors' as colors;
-@use '/src/styles/font-size' as *;
+@use '/src/styles/font-size' as fontsize;
 
 .testimonialsContainer {
   display: flex;
@@ -14,7 +14,7 @@
 }
 
 .title {
-  font-size: $xx-large;
+  font-size: fontsize.$xx-large;
   text-align: center;
   @include mixins.tablet {
     font-size: 72px;
@@ -37,7 +37,7 @@
 }
 
 .description {
-  font-size: $large;
+  font-size: fontsize.$large;;
   line-height: 1.5;
 }
 
@@ -55,7 +55,7 @@
 }
 
 .name {
-  font-size: $large;
+  font-size: fontsize.$large;;
   font-weight: 700;
 }
 

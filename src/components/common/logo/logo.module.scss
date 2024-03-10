@@ -1,9 +1,9 @@
-@use '/src/styles/font-size' as *;
+@use '/src/styles/font-size' as fontsize;
 @use '/src/styles/colors' as colors;
 
 
 .logo {
-  font-size: $xx-large;
+  font-size: fontsize.$xx-large;
   font-weight: 700;
   &:after {
     content: ".";

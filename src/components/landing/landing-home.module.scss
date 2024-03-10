@@ -1,6 +1,6 @@
 @use '/src/styles/mixin' as mixins;
 @use '/src/styles/colors' as colors;
-@use '/src/styles/font-size' as *;
+@use '/src/styles/font-size' as fontsize;
 
 .landingHomeContainer {
   display: flex;
@@ -70,7 +70,7 @@
 }
 
 .landingDescription {
-  font-size: $xx-large;
+  font-size: fontsize.$xx-large;
   font-weight: 400;
   color: colors.$gray;
   @include mixins.tablet {

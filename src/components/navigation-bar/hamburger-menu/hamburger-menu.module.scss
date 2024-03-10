@@ -1,6 +1,6 @@
 @use 'src/styles/mixin' as mixins;
 @use 'src/styles/colors' as colors;
-@use 'src/styles/variables' as *;
+@use 'src/styles/font-size' as fontsize;
 
 .hamburgerContainer {
   @include mixins.tablet {
@@ -29,7 +29,7 @@
   display: flex;
   flex-direction: column;
   gap: 8px;
-  font-size: $xx-large;
+  font-size: fontsize.$xx-large;
   & a {
     animation: 0.5s ease-in-out slidein;
   }

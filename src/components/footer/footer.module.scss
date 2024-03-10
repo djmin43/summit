@@ -1,5 +1,5 @@
 @use '/src/styles/mixin' as mixins;
-@use '/src/styles/font-size' as *;
+@use '/src/styles/font-size' as fontsize;
 @use '/src/styles/colors' as colors;
 
 .footerContainer {
@@ -30,5 +30,5 @@
 }
 
 .copyright {
-  font-size: $small;
+  font-size: fontsize.$small;;
 }

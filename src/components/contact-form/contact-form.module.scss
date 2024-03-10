@@ -1,0 +1,11 @@
+@use 'src/styles/colors' as colors;
+@use 'src/styles/mixin' as mixin;
+@use 'src/styles/font-size' as fontsize;
+
+.formContainer {
+  border: 2px solid colors.$gray;
+}
+
+.inputContainer {
+
+}

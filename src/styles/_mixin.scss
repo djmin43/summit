@@ -17,3 +17,12 @@
     @content
   }
 }
+
+@mixin hStack {
+  display: flex;
+}
+
+@mixin vStack {
+  display: flex;
+  flex-direction: column;
+}

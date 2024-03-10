@@ -1,0 +1,9 @@
+@use 'src/styles/variables' as *;
+
+.select {
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid $gray;
+}
+

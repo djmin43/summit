@@ -1,0 +1,35 @@
+@use 'src/styles/colors' as colors;
+@use 'src/styles/mixin' as mixin;
+@use 'src/styles/font-size' as fontsize;
+
+.contactContainer {
+  @include mixin.hStack;
+  justify-content: center;
+  align-items: center;
+  height: 100dvh;
+  padding: 16px;
+}
+
+.writeupContainer {
+  @include mixin.vStack;
+  width: 500px;
+  gap: 16px;
+
+}
+
+.title {
+  font-size: fontsize.$x-large;
+  @include mixin.tablet {
+    font-size: fontsize.$xx-large;
+  }
+}
+
+.description {
+  font-size: fontsize.$large;
+  font-weight: 500;
+  @include mixin.tablet {
+    font-size: fontsize.$x-large;
+  }
+
+}
+

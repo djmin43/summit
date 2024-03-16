@@ -25,6 +25,10 @@ export const ContactForm = () => {
         <label htmlFor="name">name</label>
         <Input id="name" placeholder="Name" {...register("name")} />
       </div>
+      <div>
+        <label htmlFor="name">email</label>
+        <Input id="name" placeholder="Email" {...register("name")} />
+      </div>
       <button type="submit">Submit</button>
     </form>
   );

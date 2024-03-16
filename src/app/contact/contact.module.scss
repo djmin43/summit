@@ -3,17 +3,24 @@
 @use 'src/styles/font-size' as fontsize;
 
 .contactContainer {
-  @include mixin.hStack;
+  display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   height: 100dvh;
   padding: 16px;
+  @include mixin.tablet {
+    flex-direction: row;
+  }
 }
 
 .writeupContainer {
   @include mixin.vStack;
-  width: 500px;
   gap: 16px;
+  @include mixin.tablet {
+    width: 500px;
+  }
+
 
 }
 

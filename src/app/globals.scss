@@ -31,7 +31,15 @@ button {
   cursor:pointer
 }
 
+input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  all: unset;
+}
+
 body {
+
 }
 
 a {

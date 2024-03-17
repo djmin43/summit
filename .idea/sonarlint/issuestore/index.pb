@@ -92,3 +92,5 @@ d
 4src/components/contact-form/contact-form.module.scss,9/f/9fe218c6db85464ab6bf8667b3681eec64c78c39
 H
 src/firebase/firebase.ts,d/e/de9edeae5770de5c8a7aceef6ebbb7bc6be78968
+9
+	env.local,b/3/b32507e59b942113b282b82b905217754c2e4b11

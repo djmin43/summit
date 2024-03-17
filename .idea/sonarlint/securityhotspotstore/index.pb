@@ -90,3 +90,5 @@ f
 6src/components/contact-form/contact-form.component.tsx,c/b/cbfc1f71202fe54d3361b9b23e8a2e9d05caf20d
 d
 4src/components/contact-form/contact-form.module.scss,9/f/9fe218c6db85464ab6bf8667b3681eec64c78c39
+H
+src/firebase/firebase.ts,d/e/de9edeae5770de5c8a7aceef6ebbb7bc6be78968
